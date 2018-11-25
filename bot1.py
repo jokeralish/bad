@@ -15,7 +15,7 @@ import time, random, multiprocessing, sys, json, codecs, threading, glob, re, st
 from gtts import gTTS
 from googletrans import Translator
 
-client = LINE("EyN1htofUzqljWAg2khb.VHH0q0Dhr8pSns5/+RsmgW.JoW4knU3ersrLmDHD6VTS9Lc1rXX6vTo5IEZ+f+GNZM=")
+client = LINE("EzE5r91DIg6vdCo0UDYf.eKNgao1xe5yDQlJaV5UJ+W.FPwZdxHsfpGGhHx3tDjPfNoqLxaMvj+YMOXRtxctllY=")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
@@ -573,7 +573,7 @@ def helpmessage():
     helpMessage += "┃" + " │ %i)" % num + key + " Musik\n"
     num = (num+1)
     helpMessage += "┃ " + "├──────────────\n"
-    helpMessage += "┃ " + "╰───⚜ Bots V.1⚜────\n"
+    helpMessage += "┃ " + "╰───⚜ ᴀʟɪsʜ ᴊᴏᴋᴇʀ⚜────\n"
     helpMessage += "╰━━━━━━━━━━━━━━━━"
     return helpMessage
 #==============================================================================#

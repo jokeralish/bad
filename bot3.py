@@ -14,7 +14,7 @@ import time, random, multiprocessing, sys, json, codecs, threading, glob, re, st
 from gtts import gTTS
 from googletrans import Translator
 
-cl = LINE("Ey1SuDYpCuOX40AMu7i1.tJhx4qV+KZkrLDqq41Rwqq.NydPX+eH8PHpWz5GJTgVAimZgCQGgx0b5CqkGvVnjN0=")
+cl = LINE("EzoWGv1KkJKhLgKaygia.iWUy5hFsviofrvd8vX8GwG.2lFbF2m23lknKXfmGs/ng58RCT")
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
@@ -22,20 +22,20 @@ ki = LINE("EyHlTLAX4QtAkdXfTJo7.ryGTdQ0xa4vDVgdudJE/XW.voGeT4BM3DwcSvdzT0FF0xwqB
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-ka = LINE("EyI69IEVAbMULlWFtdg9.k+n9YlUAYfbHu5wP4vHq/q.pnrYn0bxlR41vSwGiMwm0FZTdFhVjdfSZqLvU4gv42g=")
+ka = LINE("EzWLaPSERVrarrbrjz43.qS5+L+zB8y+2xsVBnrHwWW.9vqsrL982mP693qyJPMb3ceUCbbrl81/ruvU6wLs0OE=")
 ka.log("Auth Token : " + str(ka.authToken))
 ka.log("Timeline Token : " + str(ka.tl.channelAccessToken))
 
-kc = LINE("EyjjB3dRYcHqFH5eEAqc.cL7O15BJz3PwUe+Wo2vK7a.U0dytjQt3CCBF6gKMzK7DscPvcbxWAs/w05jhF+QUZk=")
+kc = LINE("EzCXAoTc2F0i2OpjgBQ7.0dtn8HJP5fe9SBZQfn3hPW.PoaKj8OoOJ5QrAMz1WhpVdWQUtT3clDVGw8+gi6SAx4=")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
 oepoll = OEPoll(cl)
 call = cl
-creator = ["ub1c5a71f27b863896e9d44bea857d35b","u4e31d7e10bff93329195d410e35ad641"]
-owner = ["ub1c5a71f27b863896e9d44bea857d35b","u4e31d7e10bff93329195d410e35ad641"]
-admin = ["ub1c5a71f27b863896e9d44bea857d35b","u4e31d7e10bff93329195d410e35ad641"]
-staff = ["ub1c5a71f27b863896e9d44bea857d35b","u4e31d7e10bff93329195d410e35ad641"]
+creator = ["u1249c600ed5713961da8b8c0bf9ba3ff","u1249c600ed5713961da8b8c0bf9ba3ff"]
+owner = ["u1249c600ed5713961da8b8c0bf9ba3ff","u1249c600ed5713961da8b8c0bf9ba3ff"]
+admin = ["u1249c600ed5713961da8b8c0bf9ba3ff","u1249c600ed5713961da8b8c0bf9ba3ff"]
+staff = ["u1249c600ed5713961da8b8c0bf9ba3ff","u1249c600ed5713961da8b8c0bf9ba3ff"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = ka.getProfile().mid
@@ -174,8 +174,8 @@ wait = {
     "mention":"Nah kang coli pada ngintip",
     "Respontag":"Senggol,,, Bacok,,,",
     "welcome":"Wellcome to my Fams",
-    "comment":"Auto like By S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ",
-    "message":"Ciee nge add kepo ye..\nThanks for add me..\n\nS̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ"
+    "comment":"Auto like By alish joker",
+    "message":"Ciee nge add kepo ye..\nThanks for add me..\̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ"
 }
 
 protect = {
@@ -532,8 +532,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔───────────────⎆\n"
-    helpMessage += "║           COMAND ADMIN DAN STAFF \n"
-    helpMessage += "║                   S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ\n"
+    helpMessage += "║           ᴀʟɪsʜ ᴊᴏᴋᴇʀ "
     helpMessage += "╠───────────────⎆\n"
     helpMessage += "║%i. " % num + key + "Me\n"
     num = (num+1)
@@ -658,7 +657,7 @@ def help():
     helpMessage += "╠───────────────⎆\n"
     helpMessage += "║         TEAM BOT PROTECT \n"
     helpMessage += "╠───────────────⎆\n"
-    helpMessage += "║               S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ \n"
+    helpMessage += "║       alish Joker\n"
     helpMessage += "╚───────────────⎆"
     return helpMessage
 
@@ -668,7 +667,7 @@ def helpbot():
     key = key.title()
     helpMessage2 = "┏───────────────⎆\n"
     helpMessage2 += "║         COMAN OWNER DAN ADMIN  \n"
-    helpMessage2 += "║                  S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ \n"
+    helpMessage2 += "║          ᴀʟɪsʜ ᴊᴏᴋᴇʀ\n"
     helpMessage2 += "╠───────────────⎆\n"
     helpMessage2 += "║%i. " % num + key + "Adminexpl:on\n"
     num = (num+1)
@@ -753,7 +752,7 @@ def helpbot():
     helpMessage2 += "╠───────────────⎆\n"
     helpMessage2 += "║           TEAM BOT PROTECT \n"
     helpMessage2 += "╠───────────────⎆\n"
-    helpMessage2 += "║                 S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ \n"
+    helpMessage2 += "║         \n"
     helpMessage2 += "╚───────────────⎆"
     return helpMessage2
 
@@ -1816,7 +1815,7 @@ def bot(op):
                             if msg._from in owner or msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "   ⏣⎊ S̶̭̗̞̙̿͑̽̆̃̒į̷̙̝̦̤̜̗́̉ͅl̸̛͓͋͋͆̍ę̶͇̮̦̣̖̙̘̪̉n̸͍̦͉̖̟͚̗̣̍̓̽̅̚ť̴̙͋ ̷̨̳̠͎̮̘͇̀̅̀͒̈́͊̕͝T̸̡̯̗̩̺͉̑́͛̌̒ͅé̶̡̱̯̮̯̊̏́̀̃͜a̴̭͓̫͚̐́̂̍̂̊̋̚m̸̨̨̹͎͍̳̥͆̓͗̿͐͗͑̿̓͠ ̴̠͐̂B̷̛̳͎̫̻̫̯̣͓̲͋̀͋̋͊̈͗͑o̵̲̾̈́͒͗t̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ ⎊⏣\n\n"
+                                md = "   ⏣⎊ ⎊⏣\n\n"
                                 if wait["sticker"] == True: md+="【✔】Sticker\n"
                                 else: md+="【✘】Sticker\n"
                                 if wait["contact"] == True: md+="【✔】Contact\n"
