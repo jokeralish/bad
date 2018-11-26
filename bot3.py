@@ -22,7 +22,7 @@ ki = LINE("EzQOGhRA81nCO698agL3.qS5+L+zB8y+2xsVBnrHwWW.WzgKQRaPy9wfCVHn5EQygC5wZ
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-ka = LINE("EzoD1FXlvXWXGVOE81g5.MJRguDKPSKBCKRAlfaXAnq.WQL9R3qqBb7fKt/u8qRyn9CTmPkIycaxQAxcO59q8Oo=")
+ka = LINE("Ezt2YFwmNHzxF0uTfLg5.MJRguDKPSKBCKRAlfaXAnq.KW1K/esv4cL0WnxVbZ9k9EmLCyQNK4Y9nmCVv1w5uYs=")
 ka.log("Auth Token : " + str(ka.authToken))
 ka.log("Timeline Token : " + str(ka.tl.channelAccessToken))
 
