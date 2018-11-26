@@ -74,7 +74,7 @@ settings = {
         "coverId": "",
         "pictureStatus": "",
         "statusMessage": ""
-        "message":"Ciee nge add kepo ye..\nThanks for add me..\̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ"
+    #    "message":"Ciee nge add kepo ye..\nThanks for add me..\̴̢͍̫̰̠̞͖͍̬̑̊̽͒́̈́͗ͅ"
     },
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
