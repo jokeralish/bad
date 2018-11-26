@@ -22,7 +22,7 @@ ki = LINE("EzQOGhRA81nCO698agL3.qS5+L+zB8y+2xsVBnrHwWW.WzgKQRaPy9wfCVHn5EQygC5wZ
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-ka = LINE("EzQOGhRA81nCO698agL3.qS5+L+zB8y+2xsVBnrHwWW.WzgKQRaPy9wfCVHn5EQygC5wZfaB+U1ap36a6C+x1E8=")
+ka = LINE("EzoD1FXlvXWXGVOE81g5.MJRguDKPSKBCKRAlfaXAnq.WQL9R3qqBb7fKt/u8qRyn9CTmPkIycaxQAxcO59q8Oo=")
 ka.log("Auth Token : " + str(ka.authToken))
 ka.log("Timeline Token : " + str(ka.tl.channelAccessToken))
 
@@ -63,7 +63,7 @@ responsename = ka.getProfile().displayName
 settings = {
     "autoBlock": False,
     "autoRead": False,
-    "welcome": False,
+    "welcome": True,
     "leave": False,
     "replySticker": False,
     "stickerOn": False,
@@ -453,7 +453,7 @@ def siderMembers(to, mid):
 def welcomeMembers(to, mid):
     try:
         arrData = ""
-        textx = "Member Masuk「{}」\nHaii  ".format(str(len(mid)))
+        textx = "یه نفر جوین شد「{}」\nسلام   ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -464,7 +464,7 @@ def welcomeMembers(to, mid):
             elen = str(len(textx) + len(mention) - 1)
             arrData = {'S':slen, 'E':elen, 'M':i}
             arr.append(arrData)
-            textx += mention+wait["welcome"]+"\nNama grup : "+str(ginfo.name)
+            textx += mention+wait["خوش اومدی"]+"\nاسم گروه : "+str(ginfo.name)
             if no < len(mid):
                 no += 1
                 textx += "%i " % (num)
