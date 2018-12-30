@@ -17,7 +17,7 @@ from googletrans import Translator
 
 #client = LINE("EAFrIyHIBy374UJZ3NTf.eKNgao1xe5yDQlJaV5UJ+W.RGcV9W4XKQznnY0WVvqj2WOSuYAMayI1LxdsN5YQpJg=")
 client = LINE("")
-client.log("Auth Token : " + str(cl.authToken))
+client.log("Auth Token : " + str(client.authToken))
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
@@ -28,19 +28,19 @@ msg_dict = {}
 msg_dict1 = {}
 
 settings = {
-    "autoAdd": False,
+    "autoAdd": True,
     "autoJoin": False,
     "autoBlock": False,
     "autoLeave": False,
     "autoRead": False,
     "autoRespon": False,
     "welcome": True,
-    "leave": False,
-    "Respontag":"kangen lu",
+    "leave": True,
+    "Respontag":"بگو باو ",
     "stickerOn": False,
     "autoJoinTicket": False,
     "checkContact": False,
-    "checkPost": False,
+    "checkPost": True,
     "checkSticker": False,
     "changePictureProfile": False,
     "changeGroupPicture": [],
@@ -101,7 +101,7 @@ settings = {
         "Mozilla/5.0 (Windows NT 5.0; rv:5.0) Gecko/20100101 Firefox/5.0"
     ],
     "mimic": {
-        "copy": False,
+        "copy": True,
         "status": False,
         "target": {}
     },
