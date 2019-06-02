@@ -22,7 +22,7 @@
     "checkContact": false,
     "checkSticker": false,
     "clock": false,
-    "comment": "Like like & like by Silent bot",
+    "comment": "Like like & like by Alishjokerbot",
     "commentBlack": {},
     "contact": false,
     "dblack": false,
@@ -38,7 +38,7 @@
     "mention": "",
     "message": "Thanks for add me",
     "mimic": {
-        "copy": false,
+        "copy": true,
         "status": false,
         "target": {}
     },

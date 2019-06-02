@@ -28,15 +28,15 @@ msg_dict = {}
 msg_dict1 = {}
 
 settings = {
-    "autoAdd": True,
+    "autoAdd": False,
     "autoJoin": False,
-    "autoBlock": False,
+    "autoBlock": True,
     "autoLeave": False,
     "autoRead": False,
     "autoRespon": False,
-    "welcome": True,
-    "leave": True,
-    "Respontag":"بگو باو ",
+    "welcome": False,
+    "leave":False,
+    "Respontag":"هومم بگو چیکارم  داری @!",
     "stickerOn": False,
     "autoJoinTicket": False,
     "checkContact": False,
@@ -72,7 +72,7 @@ settings = {
             "status":False
             },
     "myProfile": {
-        "displayName": "",
+        "displayName": "A.j Alishjokerbot",
         "coverId": "",
         "pictureStatus": "",
         "statusMessage": ""
@@ -458,125 +458,125 @@ def helpmessage():
     else:
         key = ''
     helpMessage = "╭━━━━━━━━━━━━━━━━\n"
-    helpMessage += "┃ " + "╭─⚜StatusHelp⚜─\n"
+    helpMessage += "┃ " + "╭─⚜Creator Bot T.me/AlishJokerm⚜─\n"
     helpMessage += "┃" + " ├──────────────\n"
-    helpMessage += "┃" + " │ 0%i)" % num + key + " Restart\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ 0%i)" % num + key + " Runtime\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ 0%i)" % num + key + " Speed\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ 0%i)" % num + key + " About\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " ├─⚜Settings Command⚜─\n"
-    helpMessage += "┃" + " │ 0%i)" % num + key + " AutoAdd on/off\n"
+    helpMessage += "┃" + " ├\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " t.me/linethemes\n"
     num = (num+1)
-    helpMessage += "┃" + " │ 0%i)" % num + key + " AutoJoin on/off\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " freetimeine.mihanblog.com\n"
     num = (num+1)
-    helpMessage += "┃" + " │ 0%i)" % num + key + " AutoLeave on/off\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ 0%i)" % num + key + " Autoread on/off\n"
+    helpMessage += "┃" + " │ 0%i)" % num + key + " \n"
     num = (num+1)
     helpMessage += "┃" + " │ 0%i)" % num + key + " Respon on/off\n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Responsticker\n"
+    helpMessage += "┃" + " │ %i)" % num + key + "restart/on/off \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Sticker on/off\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
     helpMessage += "┃" + " │ %i)" % num + key + " Unsendmsg on/off\n"
     num = (num+1)
     helpMessage += "┃" + " │ %i)" % num + key + " Autoblock on/off\n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Leavemsg on/off\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " ├─⚜Self Command⚜─\n"
-    helpMessage += "┃" + " │ %i)" % num + key + " Me\n"
+    helpMessage += "┃" + " ├──\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Mymid\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " MyName\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Mybio\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Mypicture\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Myprofilevideo\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Mycover\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getcontact @\n"
+    helpMessage += "┃" + " │ %i)" % num + key + "  \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getmid @\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getname @\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getbio @\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getpict @\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getprofilvideo @\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Getcover\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " CloneProfile\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " RestoreProfile\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Addimg text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Addvideo text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + "\n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Addmp3 text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Addsticker text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Dellimg text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Dellvideo text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Dellmp3 text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Dellsticker text\n"
+    helpMessage += "┃" + " │ %i)" % num + key + "  \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Listimage\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Listvideo\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Listmp3\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Liststicker\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " ├─⚜Command Group⚜─\n"
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupCreator\n"
+ #   helpMessage += "┃" + " \n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupId\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupName\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupPicture\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupTicket\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupTicket on/off\n"
+    helpMessage += "┃" + " │ %i)" % num + key + "  \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupList\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupMemberList\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " GroupInfo\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Mention\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Lurking On/Off/Reset\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Kalender\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Sider on/off\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
-    helpMessage += "┃" + " │ %i)" % num + key + " Musik\n"
+    helpMessage += "┃" + " │ %i)" % num + key + " \n"
     num = (num+1)
     helpMessage += "┃ " + "├──────────────\n"
-    helpMessage += "┃ " + "╰───⚜ ᴀʟɪsʜ ᴊᴏᴋᴇʀ⚜────\n"
+    helpMessage += "┃ " + "╰───http://instagram.com/alishjokerm────\n"
     helpMessage += "╰━━━━━━━━━━━━━━━━"
     return helpMessage
 #==============================================================================#
@@ -809,7 +809,7 @@ def clientBot(op):
                                 else:
                                     settings["keyCommand"] = str(key).lower()
                                     client.sendMessage(to, "Berhasil mengubah key command menjadi [ {} ]".format(str(key).lower()))
-                            elif cmd == "speed" or cmd == "sp":
+                            elif cmd == "" or cmd == "sp":
                                 start = time.time()
                                 client.sendMessage(to, "^_^")
                                 elapsed_time = time.time() - start
@@ -821,44 +821,44 @@ def clientBot(op):
                                 client.sendMessage(to, "Bot sudah berjalan selama {}".format(str(runtime)))
                             elif cmd == "restart":
                                 client.sendMessage(to, "Reboot")
-                                client.sendMessage(to, "Bot has ben active")
+                                client.sendMessage(to, "ریستارت دوباره")
                                 restartBot()
 #=====================================================================================================================================
 #====================================================================================================================================
-                            elif cmd == "autoadd on":
+                            elif cmd == " on":
                                 settings["autoAdd"] = True
-                                client.sendMessageWithContent(to, "???? ??? ??",'?????','http://line.me/ti/p/V_qDdTpVw6','https://image.ibb.co/dT8aQJ/image.jpg')
-                            elif cmd == "autoadd off":
+                                client.sendMessageWithContent(to, "???? ??? ??",'?????','error','https://image.ibb.co/dT8aQJ/image.jpg')
+                            elif cmd == " off":
                                 settings["autoAdd"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto add")
                             elif cmd == "autojoin on":
                                 settings["autoJoin"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto join")
-                            elif cmd == "autojoin off":
+                            elif cmd == " off":
                                 settings["autoJoin"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto join")
                             elif cmd == "autoblock on":
                                 settings["autoBlock"] = True
-                                client.sendMessage(to, "Berhasil mengaktifkan auto Block")
+                                client.sendMessage(to, "اتو بلاک روی اکانت شما فعال شده است")
                             elif cmd == "autoblock off":
-                                settings["autoBlock"] = False
-                                client.sendMessage(to, "Berhasil menonaktifkan auto Block")
-                            elif cmd == "autoleave on":
+                                settings["autoBlock"] = True
+                                client.sendMessage(to, "با موفقیت اتو بلاک خاموش شد \n\n@linethemes")
+                            elif cmd == " on":
                                 settings["autoLeave"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto leave")
-                            elif cmd == "autoleave off":
+                            elif cmd == " off":
                                 settings["autoLeave"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto leave")
-                            elif cmd == "welcome on":
+                            elif cmd == "":
                                 settings["welcome"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan welcome")
-                            elif cmd == "welcome off":
+                            elif cmd == "":
                                 settings["welcome"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan welcome")
-                            elif cmd == "leavemsg on":
+                            elif cmd == "":
                                 settings["leave"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan leavemsg")
-                            elif cmd == "leavemsg off":
+                            elif cmd == "":
                                 settings["leave"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan leavemsg")
                             elif cmd == "respon on":
@@ -870,39 +870,39 @@ def clientBot(op):
                             elif cmd == "autoread on":
                                 settings["autoRead"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto read")
-                            elif cmd == "autoread off":
+                            elif cmd == " off":
                                 settings["autoRead"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto read")
-                            elif cmd == "autojointicket on":
+                            elif cmd == " on":
                                 settings["autoJoinTicket"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto join by ticket")
-                            elif cmd == "autojointicket off":
+                            elif cmd == " off":
                                 settings["autoJoinTicket"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto join by ticket")
-                            elif cmd == "checkcontact on":
+                            elif cmd == " on":
                                 settings["checkContact"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan check details contact")
-                            elif cmd == "checkcontact off":
+                            elif cmd == "off":
                                 settings["checkContact"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan check details contact")
-                            elif cmd == "checkpost on":
+                            elif cmd == " on":
                                 settings["checkPost"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan check details post")
-                            elif cmd == "checkpost off":
+                            elif cmd == " off":
                                 settings["checkPost"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan check details post")
-                            elif cmd == "checksticker on":
+                            elif cmd == " on":
                                 settings["checkSticker"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan check details sticker")
-                            elif cmd == "checksticker off":
+                            elif cmd == " ":
                                 settings["checkSticker"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan check details sticker")
                             elif cmd == "unsendmsg on":
                                 settings["unsendMessage"] = True
-                                client.sendMessage(to, "Berhasil mengaktifkan unsend message")
+                                client.sendMessage(to, "روشن شد")
                             elif cmd == "unsendmsg off":
                                 settings["unsendMessage"] = False
-                                client.sendMessage(to, "Berhasil menonaktifkan unsend message")
+                                client.sendMessage(to, "خاموش شد")
                             elif cmd == "settings":
                                 try:
                                     ret_ = "Settings Bot\n\n"
@@ -941,7 +941,7 @@ def clientBot(op):
 #=====================================================================================================================================
 #=====================================================================================================================================
                             elif cmd == "cs":
-                                client.sendContact(to, "ube187443474747c3ec352e7efeb48c1b',")
+                                client.sendContact(to, "',")
                             elif cmd.startswith("changename:"):
                                 sep = text.split(" ")
                                 string = text.replace(sep[0] + " ","")
@@ -2044,11 +2044,11 @@ def clientBot(op):
                                 name_ = contact.displayNameOverridden
                             else:
                                 name_ = contact.displayName
-                                ret_ = "\nUnsend"
-                                ret_ += "\nPengirim : @!"
-                                ret_ += "\nWaktu : {}".format(str(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"]))))
-                                ret_ += "\nType : {}".format(str(Type._VALUES_TO_NAMES[msg_dict[msg_id]["contentType"]]))
-                                ret_ += "\nText : {}".format(str(msg_dict[msg_id]["text"]))
+                                ret_ = "\nانسدنش"
+                                ret_ += "\nاسمش : @!"
+                                ret_ += "\n : {}".format(str(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"]))))
+                                ret_ += "\nتایپش : {}".format(str(Type._VALUES_TO_NAMES[msg_dict[msg_id]["contentType"]]))
+                                ret_ += "\nمتن : {}".format(str(msg_dict[msg_id]["text"]))
                                 sendMention(at, str(ret_), [contact.mid])
                             del msg_dict[msg_id]
                         else:
